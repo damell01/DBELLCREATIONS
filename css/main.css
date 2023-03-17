@@ -3558,6 +3558,9 @@ footer .row {
     .footer-main .right {
         padding-left: 15px;
     }
+    .header-logo a{
+        left:8vw !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3567,6 +3570,7 @@ footer .row {
     .footer-main .right {
         padding-left: 10px;
     }
+   
     .footer-logo {
         margin: -.6rem auto 3.6rem;
     }
