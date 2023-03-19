@@ -3568,8 +3568,8 @@ footer .row {
         left:4vw !important;
     }
     a.site-logo {
-        top: -8vh;
-        height: 8vw;
+        top: -8vh !important;
+        height: 8vw !important;
     }
 }
 
