@@ -3100,7 +3100,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-primary {
-    width: 65%;
+    width: 100%;
 }
 
 .contact-primary #contactForm {
