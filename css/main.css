@@ -3538,6 +3538,12 @@ footer .row {
  * responsive:
  * footer
  * ------------------------------------------------------------------- */
+ @media (max-aspect-ratio: 16/9){
+    a.site-logo {
+        left: 34vw;
+    }
+
+ }
 @media only screen and (max-width: 900px) {
     .footer-main .left {
         padding-right: 20px;
@@ -3560,6 +3566,9 @@ footer .row {
     }
     .header-logo a{
         left:4vw !important;
+    }
+    a.site-logo {
+        top: 2vh;
     }
 }
 
