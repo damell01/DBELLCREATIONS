@@ -2991,6 +2991,10 @@ html.no-csstransitions .home-content__main {
     color: #FFFFFF;
   
 }
+mc-embedded-subscribe{
+background: #39b54a;
+}
+
 #mc_embed_signup .mc-field-group label {
     font-family: "montserrat-light", sans-serif;
     font-size: 1rem;
