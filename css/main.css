@@ -2991,8 +2991,11 @@ html.no-csstransitions .home-content__main {
     color: #FFFFFF;
   
 }
-mc-embedded-subscribe{
-background: #39b54a;
+#mc_embed_signup .button{
+background: #39b54a !important;
+}
+#mc_embed_signup .button :hover{
+    background: black !important;
 }
 
 #mc_embed_signup .mc-field-group label {
