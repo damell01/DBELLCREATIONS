@@ -45,10 +45,26 @@
 </style>
 <script type="text/javascript">var tectite_form_environ = {img_url:"//cdn.tectite.com/images/"};</script>
 <script type="text/javascript" src="//cdn.tectite.com/formval-v20.js"></script>
+<script type='text/javascript'>
 
+
+    function reloadPage() {
+                    var currentDocumentTimestamp = new Date(performance.timing.domLoading).getTime();
+                    // Current Time //
+                    var now = Date.now();
+                    // Total Process Lenght as Minutes //
+                    var tenSec = 10 * 1000;
+                    // End Time of Process //
+                    var plusTenSec = currentDocumentTimestamp + tenSec;
+                    if (now > plusTenSec) {
+                        location.reload();
+                    }
+                }
+    
+    </script>
 </head>
 
-<body id="top">
+<body id="top" onload="reloadPage()"  >
 
     <!-- header
     ================================================== -->
@@ -72,7 +88,7 @@
                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
                     <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
                     <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    
+                    <!-- <li><a  href="resources.html" target="_self" title="Resources">Resources</a></li> -->
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
@@ -276,9 +292,9 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/Adamsoffroadwebsite.png" class="thumb-link" title="Adams Offroad" data-size="1050x700">
-                                    <img src="images/portfolio/Adamsoffroadwebsite.png" 
-                                         srcset="images/portfolio/AdamsComputerMock.png" alt="">
+                                <a href="images/portfolio/AdamsOFfroad.webp" class="thumb-link" title="Adams Offroad" data-size="1050x700">
+                                    <img src="images/portfolio/Adamsoffroadwebsite.webp" 
+                                         srcset="images/portfolio/AdamsComputerMock.webp" alt="">
                                 </a>
                             </div>
     
@@ -306,9 +322,9 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/Tool expo full.png" class="thumb-link" title="Tool Expo" data-size="1050x700">
-                                    <img src="images/portfolio/Tool expo full.png" 
-                                         srcset="images/portfolio/ToolExpo.png 1x" alt="Tool Expo">
+                                <a href="images/portfolio/Tool expo full.webp" class="thumb-link" title="Tool Expo" data-size="1050x700">
+                                    <img src="images/portfolio/ToolExpoMockup.webp" 
+                                         srcset="images/portfolio/Tool expo full.webp 1x" alt="Tool Expo">
                                 </a>
                             </div>
     
@@ -336,9 +352,8 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/FC FULL.png" class="thumb-link" title="Fasteners Connectors" data-size="1050x700">
-                                    <img src="images/portfolio/FastenersConnectors.png"
-                                        >
+                                <a href="images/portfolio/FC FULL.webp" class="thumb-link" title="Fasteners Connectors" data-size="1050x700">
+                                    <img src="images/portfolio/FastenersConnectorsMockup.webp"
                                 </a>
                             </div>
     
@@ -365,8 +380,8 @@
                         <div class="item-folio" >
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/RiptideDesktop.png" class="thumb-link" title="Riptide Pro" data-size="1050x700">
-                                    <img src="images/portfolio/RiptideMockup.jpg"
+                                <a href="images/portfolio/RiptideDesktop.webp" class="thumb-link" title="Riptide Pro" data-size="1050x700">
+                                    <img src="images/portfolio/RiptideMockup.webp"
                                          >
                                 </a>
                             </div>
