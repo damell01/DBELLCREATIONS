@@ -1498,11 +1498,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-    visibility: visible;hidden;
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
-    visibility: hidden;
+        visibility: visible;hidden;
 }
 
 .header-nav a, .header-nav a:visited {
@@ -1534,7 +1534,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     left: 50px;
     opacity: 0;
-    visibility: hidden;
+        visibility: visible;;
 }
 
 .header-nav__list {
@@ -1963,7 +1963,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
-    visibility: hidden;
+         visible;hidden;
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
@@ -2562,7 +2562,7 @@ html.no-csstransitions .home-content__main {
     background-color: rgba(0, 0, 0, 0.8);
     content: "";
     opacity: 0;
-    visibility: hidden;
+        visibility: visible;
     position: absolute;
     top: 0;
     left: 0;
@@ -2589,7 +2589,7 @@ html.no-csstransitions .home-content__main {
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
     opacity: 0;
-    visibility: hidden;
+        visibility: visible;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     -webkit-transform: scale(0.5);
@@ -2648,7 +2648,7 @@ html.no-csstransitions .home-content__main {
     top: 3rem;
     left: 3rem;
     opacity: 0;
-    visibility: hidden;
+        visibility: visible;
     -webkit-transform: translate3d(0, -100%, 0);
     -ms-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
@@ -2682,12 +2682,12 @@ html.no-csstransitions .home-content__main {
  * ----------------------------------------------- */
 .item-folio:hover .item-folio__thumb a::before {
     opacity: 1;
-    visibility: visible;
+        visibility: visible;
 }
 
 .item-folio:hover .item-folio__thumb a::after {
     opacity: 1;
-    visibility: visible;
+        visibility: visible;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -2702,7 +2702,7 @@ html.no-csstransitions .home-content__main {
 .item-folio:hover .item-folio__project-link,
 .item-folio:hover .item-folio__text {
     opacity: 1;
-    visibility: visible;
+        visibility: visible;
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -3016,7 +3016,7 @@ background: #39b54a !important;
   display: flex;
   gap: 12px;
   position: relative;
-  translate: (50%, 20%);
+  translate: ();
   max-width: 60vw;
   width: 100%;
   background: #4070f4;
