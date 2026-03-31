@@ -3727,3 +3727,236 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+
+/* ===================================================================
+ * # Hero Stats (home-content__stats)
+ *
+ * ------------------------------------------------------------------- */
+.home-content__stats {
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3.6rem;
+    margin-top: 4.2rem;
+    margin-bottom: 1.8rem;
+}
+
+.home-content__stats .stat-item {
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home-content__stats .stat-number {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 4.8rem;
+    line-height: 1;
+    color: #FFFFFF;
+    letter-spacing: -.05rem;
+}
+
+.home-content__stats .stat-plus {
+    font-size: 3rem;
+    color: #39b54a;
+}
+
+.home-content__stats .stat-label {
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: .12rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: .6rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .home-content__stats {
+        gap: 2.4rem;
+    }
+    .home-content__stats .stat-number {
+        font-size: 3.6rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home-content__stats {
+        gap: 2rem;
+    }
+    .home-content__stats .stat-number {
+        font-size: 3rem;
+    }
+}
+
+
+/* ===================================================================
+ * # Process Section
+ *
+ * ------------------------------------------------------------------- */
+.s-process {
+    background: #111111;
+    padding: 8rem 0;
+    position: relative;
+}
+
+.s-process .section-header h3.subhead {
+    color: #39b54a;
+}
+
+.s-process .section-header .display-2 {
+    color: #FFFFFF;
+}
+
+.s-process .has-bottom-sep::after {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.process-list {
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+}
+
+.process-item {
+    text-align: center;
+    padding: 3rem 3rem;
+    position: relative;
+}
+
+.process-item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5.5rem;
+    right: 0;
+    width: 1px;
+    height: 6rem;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.process-item:last-child::after {
+    display: none;
+}
+
+.process-step {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 5.4rem;
+    line-height: 1;
+    color: #39b54a;
+    opacity: 0.8;
+    margin-bottom: 2.4rem;
+    letter-spacing: -.1rem;
+}
+
+.process-text h3 {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.process-text p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+@media only screen and (max-width: 1024px) {
+    .process-item {
+        padding: 3rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .process-item::after {
+        display: none;
+    }
+    .process-item {
+        text-align: center;
+        padding: 3rem 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-process {
+        padding: 6rem 0;
+    }
+    .process-list {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .process-step {
+        font-size: 4.2rem;
+    }
+}
+
+
+/* ===================================================================
+ * # Footer Enhancements
+ *
+ * ------------------------------------------------------------------- */
+.footer-social {
+    list-style: none;
+    margin: 1.8rem 0 0 0;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.2rem;
+}
+
+.footer-social li {
+    padding: 0;
+}
+
+.footer-social li a {
+    display: inline-block;
+    width: 3.6rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-social li a:hover {
+    background-color: #39b54a;
+    color: #FFFFFF;
+}
+
+.footer-contact h4 {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.footer-contact p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.footer-contact p a {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-contact p a:hover {
+    color: #39b54a;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-contact {
+        margin-top: 3rem;
+    }
+}
+
